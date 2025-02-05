@@ -1,6 +1,6 @@
 [project]
 name = "argon-dashboard-flask"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -18,4 +18,12 @@ dependencies = [
     "jinja2",
     "flask-restx",
     "werkzeug",
+]
+
+[project.optional-dependencies]
+pgsql = [
+    "psycopg2",
+]
+mysql = [
+    "flask-mysqldb"
 ]

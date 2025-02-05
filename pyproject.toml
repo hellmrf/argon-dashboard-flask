@@ -1,0 +1,21 @@
+[project]
+name = "argon-dashboard-flask"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask-login",
+    "flask",
+    "flask-migrate",
+    "wtforms",
+    "flask-wtf",
+    "flask-sqlalchemy",
+    "sqlalchemy",
+    "email-validator",
+    "python-decouple",
+    "gunicorn",
+    "jinja2",
+    "flask-restx",
+    "werkzeug",
+]
